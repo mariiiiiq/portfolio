@@ -358,7 +358,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #000;
+  background: #fff;
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -608,7 +608,16 @@ section {
   color: #fff;
   line-height: 0;
 }
-
+.checked .section-title h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #000;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
 .checked .back-to-top:hover {
   background: #8678c2;
   color: #fff;
