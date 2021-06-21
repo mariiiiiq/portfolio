@@ -537,7 +537,7 @@ section {
 }
 
 .services .iconbox-black i {
-  color: #000;
+  color: #fff;
 }
 
 .services .iconbox-black:hover .icon i {
@@ -545,7 +545,7 @@ section {
 }
 
 .services .iconbox-black:hover .icon path {
-  fill: #161a1d;
+  fill: #fff;
 }
 
 .services .iconbox-purple i {
