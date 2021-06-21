@@ -603,6 +603,16 @@ section {
     color: #000;
     
 }
+.checked .back-to-top i {
+  font-size: 28px;
+  color: #fff;
+  line-height: 0;
+}
+
+.checked .back-to-top:hover {
+  background: #8678c2;
+  color: #fff;
+}
 .checked .services .icon-box {
   text-align: center;
   width: 300px;
